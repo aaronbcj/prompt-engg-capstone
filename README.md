@@ -1,5 +1,4 @@
 This capstone project was created as part of Prompt Engineering course (Feb 2024 - March 2024) by edureka.co certification program.
-This capstone project was created as part of Prompt Engineering course (Feb 2024 - March 2024) by edureka.co certification program.
 
 # Overview
 
@@ -35,10 +34,11 @@ Documentation should explain how to use the app, considerations, and challenges.
 4. A maximum of 300 characters only are extracted (either from text area or uploaded file) for translation.
 5. After translation, audio is generated to read out the result.
 6. Scope for future improvements: Options for input languages, option to accept user input via speech-to-text, search for specific topic within uploaded PDF and translate it.
-7. Please send your feedback and ideas to further improve the scope of this project.
 
 # Consideration & Challenges
 
 1. streamlite state management was tricky, had to toggle upload and text area instead of having both of them together.
 2. Audio lib/drivers in windows(local) wasn't working in streamlite cloud so had to find one that works in both.
 3. Openai keys had expired so had to buy credits. In future, will explore free apis/models as well.
+
+## Please send your feedback and ideas to further improve the scope of this project.
